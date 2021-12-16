@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <div class="jumbotron">
+    <h1>Welcome To Report Page</h1>
+    {% if report %}
+      <p>You passed all the checks</p>
+
+    {% else %}
+      <p>{{ errors }}</p>
+
+
+
+
+  </div>
+
+{% endblock %}
